@@ -55,5 +55,9 @@ namespace calculator
             label1.Text = Convert.ToString(result);
         }
 
+        private void act_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

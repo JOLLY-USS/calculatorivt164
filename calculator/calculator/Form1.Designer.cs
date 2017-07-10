@@ -79,7 +79,7 @@
             this.plus.TabIndex = 0;
             this.plus.Text = "+";
             this.plus.UseVisualStyleBackColor = true;
-            this.plus.Click += new System.EventHandler(this.plus_Click);
+            this.plus.Click += new System.EventHandler(this.act_Click);
             // 
             // minus
             // 
@@ -89,7 +89,7 @@
             this.minus.TabIndex = 1;
             this.minus.Text = "-";
             this.minus.UseVisualStyleBackColor = true;
-            this.minus.Click += new System.EventHandler(this.button6_Click);
+            this.minus.Click += new System.EventHandler(this.act_Click);
             // 
             // generation
             // 
@@ -99,7 +99,7 @@
             this.generation.TabIndex = 2;
             this.generation.Text = "*";
             this.generation.UseVisualStyleBackColor = true;
-            this.generation.Click += new System.EventHandler(this.button7_Click);
+            this.generation.Click += new System.EventHandler(this.act_Click);
             // 
             // division
             // 
@@ -109,7 +109,7 @@
             this.division.TabIndex = 3;
             this.division.Text = "/";
             this.division.UseVisualStyleBackColor = true;
-            this.division.Click += new System.EventHandler(this.button8_Click);
+            this.division.Click += new System.EventHandler(this.act_Click);
             // 
             // contextMenuStrip1
             // 
