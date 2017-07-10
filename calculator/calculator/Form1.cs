@@ -57,7 +57,28 @@ namespace calculator
 
         private void act_Click(object sender, EventArgs e)
         {
+            double firstargument = Convert.ToDouble(textBox1.Text);
+            double secondargument = Convert.ToDouble(textBox2.Text);
+            double result;
+            switch (((Button)sender).Name)
+            {
+                case "plus":
+                    result = firstargument + secondargument;
+                    break;
 
+                case "minus":
+                    result = firstargument - secondargument;
+                    break;
+                case "generation":
+                    result = firstargument * secondargument;
+                    break;
+                case "division":
+                    result = firstargument / secondargument;
+                    break;
+                default: throw new Exception("No operation");
+            }
+
+            label1.Text = Convert.ToString(result);
         }
     }
 }
