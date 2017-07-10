@@ -33,14 +33,14 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.plus = new System.Windows.Forms.Button();
+            this.minus = new System.Windows.Forms.Button();
+            this.generation = new System.Windows.Forms.Button();
+            this.division = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -71,45 +71,45 @@
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 0;
             // 
-            // button5
+            // plus
             // 
-            this.button5.Location = new System.Drawing.Point(36, 86);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "+";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.plus.Location = new System.Drawing.Point(36, 86);
+            this.plus.Name = "plus";
+            this.plus.Size = new System.Drawing.Size(75, 23);
+            this.plus.TabIndex = 0;
+            this.plus.Text = "+";
+            this.plus.UseVisualStyleBackColor = true;
+            this.plus.Click += new System.EventHandler(this.plus_Click);
             // 
-            // button6
+            // minus
             // 
-            this.button6.Location = new System.Drawing.Point(36, 134);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "-";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.minus.Location = new System.Drawing.Point(36, 134);
+            this.minus.Name = "minus";
+            this.minus.Size = new System.Drawing.Size(75, 23);
+            this.minus.TabIndex = 1;
+            this.minus.Text = "-";
+            this.minus.UseVisualStyleBackColor = true;
+            this.minus.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
+            // generation
             // 
-            this.button7.Location = new System.Drawing.Point(181, 85);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "*";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.generation.Location = new System.Drawing.Point(181, 85);
+            this.generation.Name = "generation";
+            this.generation.Size = new System.Drawing.Size(75, 23);
+            this.generation.TabIndex = 2;
+            this.generation.Text = "*";
+            this.generation.UseVisualStyleBackColor = true;
+            this.generation.Click += new System.EventHandler(this.button7_Click);
             // 
-            // button8
+            // division
             // 
-            this.button8.Location = new System.Drawing.Point(181, 134);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 3;
-            this.button8.Text = "/";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.division.Location = new System.Drawing.Point(181, 134);
+            this.division.Name = "division";
+            this.division.Size = new System.Drawing.Size(75, 23);
+            this.division.TabIndex = 3;
+            this.division.Text = "/";
+            this.division.UseVisualStyleBackColor = true;
+            this.division.Click += new System.EventHandler(this.button8_Click);
             // 
             // contextMenuStrip1
             // 
@@ -122,7 +122,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 5;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -130,26 +129,26 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 6;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox3
+            // label1
             // 
-            this.textBox3.Location = new System.Drawing.Point(96, 180);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 7;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(130, 213);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "label1";
             // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(303, 270);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.division);
+            this.Controls.Add(this.generation);
+            this.Controls.Add(this.minus);
+            this.Controls.Add(this.plus);
             this.Name = "Form1";
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -164,14 +163,14 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button plus;
+        private System.Windows.Forms.Button minus;
+        private System.Windows.Forms.Button generation;
+        private System.Windows.Forms.Button division;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label1;
     }
 }
 

@@ -23,39 +23,37 @@ namespace calculator
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void plus_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
+            double firstargument = Convert.ToDouble(textBox1.Text);
+            double secondargument = Convert.ToDouble(textBox2.Text);
+            double result = firstargument + secondargument;
+            label1.Text = Convert.ToString(result);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            double firstargument = Convert.ToDouble(textBox1.Text);
+            double secondargument = Convert.ToDouble(textBox2.Text);
+            double result = firstargument * secondargument;
+            label1.Text = Convert.ToString(result);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            double firstargument = Convert.ToDouble(textBox1.Text);
+            double secondargument = Convert.ToDouble(textBox2.Text);
+            double result = firstargument - secondargument;
+            label1.Text = Convert.ToString(result);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-
+            double firstargument = Convert.ToDouble(textBox1.Text);
+            double secondargument = Convert.ToDouble(textBox2.Text);
+            double result = firstargument / secondargument;
+            label1.Text = Convert.ToString(result);
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
