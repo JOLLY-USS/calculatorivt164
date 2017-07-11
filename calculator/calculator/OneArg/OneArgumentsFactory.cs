@@ -15,19 +15,19 @@ namespace calculator.OneArg
                 case "degreeoftwo":
                     return new DegreeOfTwo();
                 case "degreeofx":
-                    return new Division();
+                    return new DegreeOfX();
                 case "degreeoften":
-                    return new Addition();
+                    return new DegreeOfTen();
                 case "module":
-                    return new Subtraction();
+                    return new Module();
                 case "lognature":
                     return new Multiplication();
                 case "tan":
-                    return new Division();
+                    return new Tan();
                 case "ctan":
-                    return new Addition();
+                    return new Ctan();
                 case "logtwo":
-                    return new Subtraction();
+                    return new Logtwo();
                 default:
                     throw new Exception("No Opertion");
             }
