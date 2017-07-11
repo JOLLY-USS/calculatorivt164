@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using calculator.OneArg;
 
 namespace calculator
 {
@@ -24,9 +25,12 @@ namespace calculator
             double result = calculator.Calculate(firstArgument, secondArgument);
             label1.Text = Convert.ToString(result);
         }
-        private void action_Click(object sender, EventArgs e)
+        private void OneArgumentOperation_Click(object sender, EventArgs e)
         {
-            
+            double firstArgument = Convert.ToDouble(textBox3.Text);
+            IOneArgumentCalculator calculator = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firstArgument);
+            label2.Text = Convert.ToString(result);
         }
     }
 }

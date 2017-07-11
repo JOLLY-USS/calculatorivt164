@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace calculator
+namespace calculator.OneArg
 {
     class OneArgumentsFactory
     {
@@ -9,9 +9,9 @@ namespace calculator
             switch (calculatorName)
             {
                 case "sin":
-                    return new Addition();
+                    return new Sinus();
                 case "cos":
-                    return new Subtraction();
+                    return new Cosinus();
                 case "degreeoftwo":
                     return new Multiplication();
                 case "degreeofx":

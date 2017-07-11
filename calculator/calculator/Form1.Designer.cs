@@ -45,10 +45,14 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.sin = new System.Windows.Forms.Button();
             this.cos = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.degreeoftwo = new System.Windows.Forms.Button();
+            this.degreeofx = new System.Windows.Forms.Button();
             this.lognature = new System.Windows.Forms.Button();
             this.module = new System.Windows.Forms.Button();
+            this.degreeoften = new System.Windows.Forms.Button();
+            this.tan = new System.Windows.Forms.Button();
+            this.ctan = new System.Windows.Forms.Button();
+            this.logtwo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -171,6 +175,7 @@
             this.sin.TabIndex = 10;
             this.sin.Text = "sin";
             this.sin.UseVisualStyleBackColor = true;
+            this.sin.Click += new System.EventHandler(this.OneArgumentOperation_Click);
             // 
             // cos
             // 
@@ -180,33 +185,37 @@
             this.cos.TabIndex = 11;
             this.cos.Text = "cos";
             this.cos.UseVisualStyleBackColor = true;
+            this.cos.Click += new System.EventHandler(this.OneArgumentOperation_Click);
             // 
-            // button5
+            // degreeoftwo
             // 
-            this.button5.Location = new System.Drawing.Point(324, 133);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 12;
-            this.button5.Text = "2^x";
-            this.button5.UseVisualStyleBackColor = true;
+            this.degreeoftwo.Location = new System.Drawing.Point(324, 133);
+            this.degreeoftwo.Name = "degreeoftwo";
+            this.degreeoftwo.Size = new System.Drawing.Size(75, 23);
+            this.degreeoftwo.TabIndex = 12;
+            this.degreeoftwo.Text = "2^x";
+            this.degreeoftwo.UseVisualStyleBackColor = true;
+            this.degreeoftwo.Click += new System.EventHandler(this.OneArgumentOperation_Click);
             // 
-            // button6
+            // degreeofx
             // 
-            this.button6.Location = new System.Drawing.Point(405, 133);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 13;
-            this.button6.Text = "x^2";
-            this.button6.UseVisualStyleBackColor = true;
+            this.degreeofx.Location = new System.Drawing.Point(405, 133);
+            this.degreeofx.Name = "degreeofx";
+            this.degreeofx.Size = new System.Drawing.Size(75, 23);
+            this.degreeofx.TabIndex = 13;
+            this.degreeofx.Text = "x^2";
+            this.degreeofx.UseVisualStyleBackColor = true;
+            this.degreeofx.Click += new System.EventHandler(this.OneArgumentOperation_Click);
             // 
             // lognature
             // 
-            this.lognature.Location = new System.Drawing.Point(324, 177);
+            this.lognature.Location = new System.Drawing.Point(324, 222);
             this.lognature.Name = "lognature";
             this.lognature.Size = new System.Drawing.Size(75, 23);
             this.lognature.TabIndex = 14;
             this.lognature.Text = "ln";
             this.lognature.UseVisualStyleBackColor = true;
+            this.lognature.Click += new System.EventHandler(this.OneArgumentOperation_Click);
             // 
             // module
             // 
@@ -216,14 +225,59 @@
             this.module.TabIndex = 15;
             this.module.Text = "mod";
             this.module.UseVisualStyleBackColor = true;
+            this.module.Click += new System.EventHandler(this.OneArgumentOperation_Click);
+            // 
+            // degreeoften
+            // 
+            this.degreeoften.Location = new System.Drawing.Point(324, 177);
+            this.degreeoften.Name = "degreeoften";
+            this.degreeoften.Size = new System.Drawing.Size(75, 23);
+            this.degreeoften.TabIndex = 16;
+            this.degreeoften.Text = "10^x";
+            this.degreeoften.UseVisualStyleBackColor = true;
+            this.degreeoften.Click += new System.EventHandler(this.OneArgumentOperation_Click);
+            // 
+            // tan
+            // 
+            this.tan.Location = new System.Drawing.Point(405, 222);
+            this.tan.Name = "tan";
+            this.tan.Size = new System.Drawing.Size(75, 23);
+            this.tan.TabIndex = 17;
+            this.tan.Text = "tan";
+            this.tan.UseVisualStyleBackColor = true;
+            this.tan.Click += new System.EventHandler(this.OneArgumentOperation_Click);
+            // 
+            // ctan
+            // 
+            this.ctan.Location = new System.Drawing.Point(324, 262);
+            this.ctan.Name = "ctan";
+            this.ctan.Size = new System.Drawing.Size(75, 23);
+            this.ctan.TabIndex = 18;
+            this.ctan.Text = "ctan";
+            this.ctan.UseVisualStyleBackColor = true;
+            this.ctan.Click += new System.EventHandler(this.OneArgumentOperation_Click);
+            // 
+            // logtwo
+            // 
+            this.logtwo.Location = new System.Drawing.Point(404, 261);
+            this.logtwo.Name = "logtwo";
+            this.logtwo.Size = new System.Drawing.Size(75, 23);
+            this.logtwo.TabIndex = 19;
+            this.logtwo.Text = "log2";
+            this.logtwo.UseVisualStyleBackColor = true;
+            this.logtwo.Click += new System.EventHandler(this.OneArgumentOperation_Click);
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(569, 271);
+            this.ClientSize = new System.Drawing.Size(525, 367);
+            this.Controls.Add(this.logtwo);
+            this.Controls.Add(this.ctan);
+            this.Controls.Add(this.tan);
+            this.Controls.Add(this.degreeoften);
             this.Controls.Add(this.module);
             this.Controls.Add(this.lognature);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.degreeofx);
+            this.Controls.Add(this.degreeoftwo);
             this.Controls.Add(this.cos);
             this.Controls.Add(this.sin);
             this.Controls.Add(this.textBox3);
@@ -261,10 +315,14 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button sin;
         private System.Windows.Forms.Button cos;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button degreeoftwo;
+        private System.Windows.Forms.Button degreeofx;
         private System.Windows.Forms.Button lognature;
         private System.Windows.Forms.Button module;
+        private System.Windows.Forms.Button degreeoften;
+        private System.Windows.Forms.Button tan;
+        private System.Windows.Forms.Button ctan;
+        private System.Windows.Forms.Button logtwo;
     }
 }
 
