@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace calculator
@@ -29,7 +22,7 @@ namespace calculator
             double secondArgument = Convert.ToDouble(textBox2.Text);
             ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.Calculate(firstArgument, secondArgument);
-            
+
             label1.Text = Convert.ToString(result);
         }
     }
