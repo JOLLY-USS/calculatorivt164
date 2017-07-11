@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using calculator.OneArg;
+using calculator.TwoArg;
 
 namespace calculator
 {
