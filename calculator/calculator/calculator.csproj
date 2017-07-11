@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="TwoArg\Addition.cs" />
     <Compile Include="OneArg\Cosinus.cs" />
+    <Compile Include="TwoArg\Average.cs" />
     <Compile Include="TwoArg\Division.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -60,8 +61,11 @@
     <Compile Include="OneArg\DivisionX.cs" />
     <Compile Include="OneArg\EdegreeX.cs" />
     <Compile Include="OneArg\IOneArgumentCalculator.cs" />
+    <Compile Include="TwoArg\Geometric.cs" />
     <Compile Include="TwoArg\ITwoArgumentsCalculator.cs" />
     <Compile Include="TwoArg\LogXY.cs" />
+    <Compile Include="TwoArg\Max.cs" />
+    <Compile Include="TwoArg\Min.cs" />
     <Compile Include="TwoArg\Multiplication.cs" />
     <Compile Include="OneArg\Logtwo.cs" />
     <Compile Include="OneArg\Module.cs" />
@@ -71,6 +75,7 @@
     <Compile Include="OneArg\Tan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TwoArg\OstXY.cs" />
     <Compile Include="TwoArg\Subtraction.cs" />
     <Compile Include="OneArg\OneArgumentsFactory.cs" />
     <Compile Include="TwoArg\TwoArgumentsFactory.cs" />

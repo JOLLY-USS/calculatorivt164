@@ -41,8 +41,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.sin = new System.Windows.Forms.Button();
             this.cos = new System.Windows.Forms.Button();
             this.degreeoftwo = new System.Windows.Forms.Button();
@@ -140,46 +138,30 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(36, 31);
+            this.textBox1.Location = new System.Drawing.Point(115, 12);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(141, 20);
             this.textBox1.TabIndex = 5;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(36, 60);
+            this.textBox2.Location = new System.Drawing.Point(115, 48);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(141, 20);
             this.textBox2.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(157, 47);
+            this.label1.Location = new System.Drawing.Point(286, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "label1";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(468, 47);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "label2";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(324, 31);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 9;
-            // 
             // sin
             // 
-            this.sin.Location = new System.Drawing.Point(324, 86);
+            this.sin.Location = new System.Drawing.Point(234, 86);
             this.sin.Name = "sin";
             this.sin.Size = new System.Drawing.Size(75, 23);
             this.sin.TabIndex = 10;
@@ -189,7 +171,7 @@
             // 
             // cos
             // 
-            this.cos.Location = new System.Drawing.Point(405, 86);
+            this.cos.Location = new System.Drawing.Point(324, 86);
             this.cos.Name = "cos";
             this.cos.Size = new System.Drawing.Size(75, 23);
             this.cos.TabIndex = 11;
@@ -199,7 +181,7 @@
             // 
             // degreeoftwo
             // 
-            this.degreeoftwo.Location = new System.Drawing.Point(324, 133);
+            this.degreeoftwo.Location = new System.Drawing.Point(234, 133);
             this.degreeoftwo.Name = "degreeoftwo";
             this.degreeoftwo.Size = new System.Drawing.Size(75, 23);
             this.degreeoftwo.TabIndex = 12;
@@ -209,7 +191,7 @@
             // 
             // degreeofx
             // 
-            this.degreeofx.Location = new System.Drawing.Point(405, 133);
+            this.degreeofx.Location = new System.Drawing.Point(324, 134);
             this.degreeofx.Name = "degreeofx";
             this.degreeofx.Size = new System.Drawing.Size(75, 23);
             this.degreeofx.TabIndex = 13;
@@ -219,7 +201,7 @@
             // 
             // lognature
             // 
-            this.lognature.Location = new System.Drawing.Point(324, 222);
+            this.lognature.Location = new System.Drawing.Point(234, 221);
             this.lognature.Name = "lognature";
             this.lognature.Size = new System.Drawing.Size(75, 23);
             this.lognature.TabIndex = 14;
@@ -229,7 +211,7 @@
             // 
             // module
             // 
-            this.module.Location = new System.Drawing.Point(405, 177);
+            this.module.Location = new System.Drawing.Point(324, 176);
             this.module.Name = "module";
             this.module.Size = new System.Drawing.Size(75, 23);
             this.module.TabIndex = 15;
@@ -239,7 +221,7 @@
             // 
             // degreeoften
             // 
-            this.degreeoften.Location = new System.Drawing.Point(324, 177);
+            this.degreeoften.Location = new System.Drawing.Point(234, 176);
             this.degreeoften.Name = "degreeoften";
             this.degreeoften.Size = new System.Drawing.Size(75, 23);
             this.degreeoften.TabIndex = 16;
@@ -249,7 +231,7 @@
             // 
             // tan
             // 
-            this.tan.Location = new System.Drawing.Point(405, 222);
+            this.tan.Location = new System.Drawing.Point(324, 221);
             this.tan.Name = "tan";
             this.tan.Size = new System.Drawing.Size(75, 23);
             this.tan.TabIndex = 17;
@@ -259,7 +241,7 @@
             // 
             // ctan
             // 
-            this.ctan.Location = new System.Drawing.Point(324, 262);
+            this.ctan.Location = new System.Drawing.Point(234, 261);
             this.ctan.Name = "ctan";
             this.ctan.Size = new System.Drawing.Size(75, 23);
             this.ctan.TabIndex = 18;
@@ -269,7 +251,7 @@
             // 
             // logtwo
             // 
-            this.logtwo.Location = new System.Drawing.Point(404, 261);
+            this.logtwo.Location = new System.Drawing.Point(324, 261);
             this.logtwo.Name = "logtwo";
             this.logtwo.Size = new System.Drawing.Size(75, 23);
             this.logtwo.TabIndex = 19;
@@ -359,7 +341,7 @@
             // 
             // EdegreeX
             // 
-            this.EdegreeX.Location = new System.Drawing.Point(324, 300);
+            this.EdegreeX.Location = new System.Drawing.Point(234, 299);
             this.EdegreeX.Name = "EdegreeX";
             this.EdegreeX.Size = new System.Drawing.Size(75, 23);
             this.EdegreeX.TabIndex = 28;
@@ -369,7 +351,7 @@
             // 
             // DivisionX
             // 
-            this.DivisionX.Location = new System.Drawing.Point(403, 299);
+            this.DivisionX.Location = new System.Drawing.Point(324, 300);
             this.DivisionX.Name = "DivisionX";
             this.DivisionX.Size = new System.Drawing.Size(75, 23);
             this.DivisionX.TabIndex = 29;
@@ -379,7 +361,7 @@
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(525, 367);
+            this.ClientSize = new System.Drawing.Size(409, 367);
             this.Controls.Add(this.DivisionX);
             this.Controls.Add(this.EdegreeX);
             this.Controls.Add(this.Geometric);
@@ -400,8 +382,6 @@
             this.Controls.Add(this.degreeoftwo);
             this.Controls.Add(this.cos);
             this.Controls.Add(this.sin);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -431,8 +411,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button sin;
         private System.Windows.Forms.Button cos;
         private System.Windows.Forms.Button degreeoftwo;

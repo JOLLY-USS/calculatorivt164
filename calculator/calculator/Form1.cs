@@ -27,10 +27,10 @@ namespace calculator
         }
         private void OneArgumentOperation_Click(object sender, EventArgs e)
         {
-            double firstArgument = Convert.ToDouble(textBox3.Text);
+            double firstArgument = Convert.ToDouble(textBox1.Text);
             IOneArgumentCalculator calculator = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.Calculate(firstArgument);
-            label2.Text = Convert.ToString(result);
+            label1.Text = Convert.ToString(result);
         }
     }
 }
