@@ -53,6 +53,16 @@
             this.tan = new System.Windows.Forms.Button();
             this.ctan = new System.Windows.Forms.Button();
             this.logtwo = new System.Windows.Forms.Button();
+            this.xdegreey = new System.Windows.Forms.Button();
+            this.xTo1dY = new System.Windows.Forms.Button();
+            this.logxy = new System.Windows.Forms.Button();
+            this.Ostxy = new System.Windows.Forms.Button();
+            this.min = new System.Windows.Forms.Button();
+            this.max = new System.Windows.Forms.Button();
+            this.Average = new System.Windows.Forms.Button();
+            this.Geometric = new System.Windows.Forms.Button();
+            this.EdegreeX = new System.Windows.Forms.Button();
+            this.DivisionX = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -267,9 +277,119 @@
             this.logtwo.UseVisualStyleBackColor = true;
             this.logtwo.Click += new System.EventHandler(this.OneArgumentOperation_Click);
             // 
+            // xdegreey
+            // 
+            this.xdegreey.Location = new System.Drawing.Point(36, 177);
+            this.xdegreey.Name = "xdegreey";
+            this.xdegreey.Size = new System.Drawing.Size(75, 23);
+            this.xdegreey.TabIndex = 20;
+            this.xdegreey.Text = "x^y";
+            this.xdegreey.UseVisualStyleBackColor = true;
+            this.xdegreey.Click += new System.EventHandler(this.act_Click);
+            // 
+            // xTo1dY
+            // 
+            this.xTo1dY.Location = new System.Drawing.Point(116, 176);
+            this.xTo1dY.Name = "xTo1dY";
+            this.xTo1dY.Size = new System.Drawing.Size(75, 23);
+            this.xTo1dY.TabIndex = 21;
+            this.xTo1dY.Text = "x^(1/y)";
+            this.xTo1dY.UseVisualStyleBackColor = true;
+            this.xTo1dY.Click += new System.EventHandler(this.act_Click);
+            // 
+            // logxy
+            // 
+            this.logxy.Location = new System.Drawing.Point(36, 222);
+            this.logxy.Name = "logxy";
+            this.logxy.Size = new System.Drawing.Size(75, 23);
+            this.logxy.TabIndex = 22;
+            this.logxy.Text = "logx(y)";
+            this.logxy.UseVisualStyleBackColor = true;
+            this.logxy.Click += new System.EventHandler(this.act_Click);
+            // 
+            // Ostxy
+            // 
+            this.Ostxy.Location = new System.Drawing.Point(116, 221);
+            this.Ostxy.Name = "Ostxy";
+            this.Ostxy.Size = new System.Drawing.Size(75, 23);
+            this.Ostxy.TabIndex = 23;
+            this.Ostxy.Text = "%(x/y)";
+            this.Ostxy.UseVisualStyleBackColor = true;
+            this.Ostxy.Click += new System.EventHandler(this.act_Click);
+            // 
+            // min
+            // 
+            this.min.Location = new System.Drawing.Point(35, 261);
+            this.min.Name = "min";
+            this.min.Size = new System.Drawing.Size(75, 23);
+            this.min.TabIndex = 24;
+            this.min.Text = "min(x,y)";
+            this.min.UseVisualStyleBackColor = true;
+            this.min.Click += new System.EventHandler(this.act_Click);
+            // 
+            // max
+            // 
+            this.max.Location = new System.Drawing.Point(116, 261);
+            this.max.Name = "max";
+            this.max.Size = new System.Drawing.Size(75, 23);
+            this.max.TabIndex = 25;
+            this.max.Text = "max(x,y)";
+            this.max.UseVisualStyleBackColor = true;
+            this.max.Click += new System.EventHandler(this.act_Click);
+            // 
+            // Average
+            // 
+            this.Average.Location = new System.Drawing.Point(35, 300);
+            this.Average.Name = "Average";
+            this.Average.Size = new System.Drawing.Size(75, 23);
+            this.Average.TabIndex = 26;
+            this.Average.Text = "Average";
+            this.Average.UseVisualStyleBackColor = true;
+            this.Average.Click += new System.EventHandler(this.act_Click);
+            // 
+            // Geometric
+            // 
+            this.Geometric.Location = new System.Drawing.Point(115, 299);
+            this.Geometric.Name = "Geometric";
+            this.Geometric.Size = new System.Drawing.Size(75, 23);
+            this.Geometric.TabIndex = 27;
+            this.Geometric.Text = "Geometric";
+            this.Geometric.UseVisualStyleBackColor = true;
+            this.Geometric.Click += new System.EventHandler(this.act_Click);
+            // 
+            // EdegreeX
+            // 
+            this.EdegreeX.Location = new System.Drawing.Point(324, 300);
+            this.EdegreeX.Name = "EdegreeX";
+            this.EdegreeX.Size = new System.Drawing.Size(75, 23);
+            this.EdegreeX.TabIndex = 28;
+            this.EdegreeX.Text = "e^x";
+            this.EdegreeX.UseVisualStyleBackColor = true;
+            this.EdegreeX.Click += new System.EventHandler(this.OneArgumentOperation_Click);
+            // 
+            // DivisionX
+            // 
+            this.DivisionX.Location = new System.Drawing.Point(403, 299);
+            this.DivisionX.Name = "DivisionX";
+            this.DivisionX.Size = new System.Drawing.Size(75, 23);
+            this.DivisionX.TabIndex = 29;
+            this.DivisionX.Text = "1/X";
+            this.DivisionX.UseVisualStyleBackColor = true;
+            this.DivisionX.Click += new System.EventHandler(this.OneArgumentOperation_Click);
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(525, 367);
+            this.Controls.Add(this.DivisionX);
+            this.Controls.Add(this.EdegreeX);
+            this.Controls.Add(this.Geometric);
+            this.Controls.Add(this.Average);
+            this.Controls.Add(this.max);
+            this.Controls.Add(this.min);
+            this.Controls.Add(this.Ostxy);
+            this.Controls.Add(this.logxy);
+            this.Controls.Add(this.xTo1dY);
+            this.Controls.Add(this.xdegreey);
             this.Controls.Add(this.logtwo);
             this.Controls.Add(this.ctan);
             this.Controls.Add(this.tan);
@@ -323,6 +443,16 @@
         private System.Windows.Forms.Button tan;
         private System.Windows.Forms.Button ctan;
         private System.Windows.Forms.Button logtwo;
+        private System.Windows.Forms.Button xdegreey;
+        private System.Windows.Forms.Button xTo1dY;
+        private System.Windows.Forms.Button logxy;
+        private System.Windows.Forms.Button Ostxy;
+        private System.Windows.Forms.Button min;
+        private System.Windows.Forms.Button max;
+        private System.Windows.Forms.Button Average;
+        private System.Windows.Forms.Button Geometric;
+        private System.Windows.Forms.Button EdegreeX;
+        private System.Windows.Forms.Button DivisionX;
     }
 }
 

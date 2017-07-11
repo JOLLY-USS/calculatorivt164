@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace calculator.OneArg
 {
-    public class Logtwo: IOneArgumentCalculator
+   public class EdegreeX : IOneArgumentCalculator
     {
         public double Calculate(double first)
         {
-            return 1 / Math.Tan(first);
+            return Math.Exp(first);
         }
     }
 }

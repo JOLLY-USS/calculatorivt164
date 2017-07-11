@@ -16,6 +16,9 @@ namespace calculator
                     return new Multiplication();
                 case "division":
                     return new Division();
+                    
+
+
                 default:
                     throw new Exception("No Opertion");
             }
