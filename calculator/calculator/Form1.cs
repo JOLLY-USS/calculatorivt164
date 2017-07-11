@@ -13,7 +13,7 @@ namespace calculator
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void act_Click(object sender, EventArgs e)
@@ -22,8 +22,11 @@ namespace calculator
             double secondArgument = Convert.ToDouble(textBox2.Text);
             ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.Calculate(firstArgument, secondArgument);
-
             label1.Text = Convert.ToString(result);
+        }
+        private void action_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
