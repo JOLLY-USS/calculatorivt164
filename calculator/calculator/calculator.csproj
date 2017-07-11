@@ -61,6 +61,7 @@
     <Compile Include="OneArg\EdegreeX.cs" />
     <Compile Include="OneArg\IOneArgumentCalculator.cs" />
     <Compile Include="TwoArg\ITwoArgumentsCalculator.cs" />
+    <Compile Include="TwoArg\LogXY.cs" />
     <Compile Include="TwoArg\Multiplication.cs" />
     <Compile Include="OneArg\Logtwo.cs" />
     <Compile Include="OneArg\Module.cs" />
@@ -73,6 +74,8 @@
     <Compile Include="TwoArg\Subtraction.cs" />
     <Compile Include="OneArg\OneArgumentsFactory.cs" />
     <Compile Include="TwoArg\TwoArgumentsFactory.cs" />
+    <Compile Include="TwoArg\XDegreeY.cs" />
+    <Compile Include="TwoArg\Xto1Dy.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

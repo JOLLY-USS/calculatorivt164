@@ -16,7 +16,12 @@ namespace calculator
                     return new Multiplication();
                 case "division":
                     return new Division();
-                    
+                case "xdegreey":
+                    return new XDegreeY();
+                case "xTo1dy":
+                    return new Xto1Dy();
+                case "logxy":
+                    return new LogXY();
 
 
                 default:
