@@ -13,7 +13,7 @@ namespace calculator.OneArg
                 case "cos":
                     return new Cosinus();
                 case "degreeoftwo":
-                    return new Multiplication();
+                    return new DegreeOfTwo();
                 case "degreeofx":
                     return new Division();
                 case "degreeoften":

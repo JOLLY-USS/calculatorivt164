@@ -54,6 +54,9 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="OneArg\DegreeOfTen.cs" />
+    <Compile Include="OneArg\DegreeOfTwo.cs" />
+    <Compile Include="OneArg\DegreeOfX.cs" />
     <Compile Include="OneArg\IOneArgumentCalculator.cs" />
     <Compile Include="ITwoArgumentsCalculator.cs" />
     <Compile Include="Multiplication.cs" />
