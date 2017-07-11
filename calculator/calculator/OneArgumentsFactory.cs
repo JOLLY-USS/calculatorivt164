@@ -2,20 +2,32 @@
 
 namespace calculator
 {
-    class TwoArgumentsFactory
+    class OneArgumentsFactory
     {
-        public static ITwoArgumentsCalculator CreateCalculator(string calculatorName)
+        public static IOneArgumentCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)
             {
-                case "plus":
+                case "sin":
                     return new Addition();
-                case "minus":
+                case "cos":
                     return new Subtraction();
-                case "generation":
+                case "degreeoftwo":
                     return new Multiplication();
-                case "division":
+                case "degreeofx":
                     return new Division();
+                case "degreeoften":
+                    return new Addition();
+                case "module":
+                    return new Subtraction();
+                case "lognature":
+                    return new Multiplication();
+                case "tan":
+                    return new Division();
+                case "ctan":
+                    return new Addition();
+                case "logtwo":
+                    return new Subtraction();
                 default:
                     throw new Exception("No Opertion");
             }
