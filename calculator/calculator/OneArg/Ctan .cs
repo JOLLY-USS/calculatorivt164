@@ -6,7 +6,8 @@ namespace calculator.OneArg
     {
         public double Calculate(double first)
         {
-            return Math.Log(first,2);
+            return 1 / Math.Round(Math.Tan(first));
+            
         }
     }
 }

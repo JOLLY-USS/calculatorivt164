@@ -4,14 +4,18 @@ using NUnit.Framework;
 namespace calculator.Tests.TwoArg
 {
     [TestFixture]
-    class DivisionTests
+    public class DivisionTests
     {
-        [Test]
-        public void DivisionTest()
+        [TestCase(6, 3, 2)]
+        [TestCase(10, 5, 2)]
+        [TestCase(9, 3, 3)]
+
+        public void AdditionTest(double firstValue, double secondValue, double expected)
         {
-            ITwoArgumentsCalculator calcutor = new Division();
-            double result = calcutor.Calculate(6, 2);
-            Assert. AreEqual(3, result);
+            var calculator = new Division();
+            var actualResult = calculator.Calculate(firstValue, secondValue);
+
+            Assert.AreEqual(expected, actualResult);
         }
 
     }

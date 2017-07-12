@@ -4,19 +4,18 @@ using NUnit.Framework;
 namespace calculator.Tests.TwoArg
 {
     [TestFixture]
-    public class SubstractionTests
+    public class MinTests
     {
-        [TestCase(5, 3, 2)]
-        [TestCase(2, 1, 1)]
-        [TestCase(6, 1, 5)]
+        [TestCase(2, 3, 2)]
+        [TestCase(3, 2, 2)]
+        [TestCase(6, 2, 2)]
 
-        public void AdditionTest(double firstValue, double secondValue, double expected)
+        public void MinTest(double firstValue, double secondValue, double expected)
         {
-            var calculator = new Subtraction();
+            var calculator = new Min();
             var actualResult = calculator.Calculate(firstValue, secondValue);
 
             Assert.AreEqual(expected, actualResult);
         }
-        
     }
 }

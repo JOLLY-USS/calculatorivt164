@@ -6,7 +6,7 @@ namespace calculator.OneArg
     {
         public double Calculate(double first)
         {
-            return Math.Tan(first);
+            return Math.Round(Math.Tan(first));
         }
     }
 }

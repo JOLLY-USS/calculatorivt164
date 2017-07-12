@@ -44,10 +44,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OneArg\CosinusTest.cs" />
+    <Compile Include="OneArg\CtanTest.cs" />
+    <Compile Include="OneArg\DegreeOfTen.cs" />
+    <Compile Include="OneArg\ModuleTest.cs" />
+    <Compile Include="OneArg\TanTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArg\AdditionTest.cs" />
     <Compile Include="TwoArg\DivisionTest.cs" />
+    <Compile Include="TwoArg\MaxTest.cs" />
+    <Compile Include="TwoArg\MinTest.cs" />
+    <Compile Include="TwoArg\OstXYTest.cs" />
     <Compile Include="TwoArg\SubstractionTest.cs" />
+    <Compile Include="TwoArg\XDegreeYTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
