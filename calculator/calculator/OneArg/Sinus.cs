@@ -7,7 +7,7 @@ namespace calculator.OneArg
     {
         public double Calculate(double first)
         {
-            return Math.Sin(first);
+            return Math.Round(Math.Sin(first));
         }
     }
 }
