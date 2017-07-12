@@ -16,6 +16,7 @@ namespace calculator.Tests.TwoArg
             var actualResult = calculator.Calculate(firstValue );
 
             Assert.AreEqual(expected, actualResult);
+
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using calculator.OneArg;
+﻿using System;
+using System.Security.Cryptography.X509Certificates;
+using calculator.OneArg;
 using NUnit.Framework;
 
 namespace calculator.Tests.TwoArg
@@ -16,6 +18,13 @@ namespace calculator.Tests.TwoArg
             var actualResult = calculator.Calculate(firstValue);
 
             Assert.AreEqual(expected, actualResult);
+        }
+
+        [Test]
+        public void ErrorTest()
+        {
+            var calculator = new Multiplication();
+            Assert.Throws<Exception>(() => calculator.Calculate(0));
         }
     }
 }

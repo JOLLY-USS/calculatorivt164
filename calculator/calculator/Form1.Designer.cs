@@ -386,7 +386,7 @@
             // Form1
             // 
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(405, 327);
+            this.ClientSize = new System.Drawing.Size(433, 327);
             this.Controls.Add(this.DivisionX);
             this.Controls.Add(this.EdegreeX);
             this.Controls.Add(this.Geometric);
