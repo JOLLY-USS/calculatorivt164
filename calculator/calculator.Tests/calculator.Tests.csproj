@@ -45,17 +45,29 @@
   <ItemGroup>
     <Compile Include="OneArg\CosinusTest.cs" />
     <Compile Include="OneArg\CtanTest.cs" />
-    <Compile Include="OneArg\DegreeOfTen.cs" />
+    <Compile Include="OneArg\DegreeOfTenTest.cs" />
+    <Compile Include="OneArg\DegreeOfTwoTest.cs" />
+    <Compile Include="OneArg\DegreeOfXTest.cs" />
+    <Compile Include="OneArg\DivisionXTest.cs" />
+    <Compile Include="OneArg\EdegreeXTest.cs" />
+    <Compile Include="OneArg\LogtwoTest.cs" />
     <Compile Include="OneArg\ModuleTest.cs" />
+    <Compile Include="OneArg\MultiplicationTest.cs" />
+    <Compile Include="OneArg\SinusTest.cs" />
     <Compile Include="OneArg\TanTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArg\AdditionTest.cs" />
+    <Compile Include="TwoArg\AverageTest.cs" />
     <Compile Include="TwoArg\DivisionTest.cs" />
+    <Compile Include="TwoArg\GeometricTest.cs" />
+    <Compile Include="TwoArg\LogXYTest.cs" />
     <Compile Include="TwoArg\MaxTest.cs" />
     <Compile Include="TwoArg\MinTest.cs" />
+    <Compile Include="TwoArg\MultiplicationTest.cs" />
     <Compile Include="TwoArg\OstXYTest.cs" />
     <Compile Include="TwoArg\SubstractionTest.cs" />
     <Compile Include="TwoArg\XDegreeYTest.cs" />
+    <Compile Include="TwoArg\Xto1DyTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
