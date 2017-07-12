@@ -1,4 +1,6 @@
-﻿using calculator.TwoArg;
+﻿using System;
+using System.Runtime.ExceptionServices;
+using calculator.TwoArg;
 using NUnit.Framework;
 
 namespace calculator.Tests.TwoArg
@@ -16,6 +18,13 @@ namespace calculator.Tests.TwoArg
             var actualResult = calculator.Calculate(firstValue, secondValue);
 
             Assert.AreEqual(expected, actualResult);
+        }
+
+        [Test]
+        public void ErrorTest() 
+        {
+            var calculator = new OstXY();
+            Assert.Throws<Exception>((() => calculator.Calculate(1, 0)));
         }
     }
 }
