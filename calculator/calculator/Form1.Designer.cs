@@ -95,7 +95,8 @@
             // plus
             // 
             this.plus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.plus.Location = new System.Drawing.Point(36, 86);
+            this.plus.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.plus.Location = new System.Drawing.Point(38, 121);
             this.plus.Name = "plus";
             this.plus.Size = new System.Drawing.Size(75, 23);
             this.plus.TabIndex = 0;
@@ -106,7 +107,8 @@
             // minus
             // 
             this.minus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.minus.Location = new System.Drawing.Point(36, 134);
+            this.minus.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.minus.Location = new System.Drawing.Point(38, 169);
             this.minus.Name = "minus";
             this.minus.Size = new System.Drawing.Size(75, 23);
             this.minus.TabIndex = 1;
@@ -117,7 +119,8 @@
             // generation
             // 
             this.generation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.generation.Location = new System.Drawing.Point(117, 86);
+            this.generation.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.generation.Location = new System.Drawing.Point(119, 121);
             this.generation.Name = "generation";
             this.generation.Size = new System.Drawing.Size(75, 23);
             this.generation.TabIndex = 2;
@@ -128,7 +131,8 @@
             // division
             // 
             this.division.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.division.Location = new System.Drawing.Point(117, 134);
+            this.division.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.division.Location = new System.Drawing.Point(119, 169);
             this.division.Name = "division";
             this.division.Size = new System.Drawing.Size(75, 23);
             this.division.TabIndex = 3;
@@ -166,7 +170,8 @@
             // sin
             // 
             this.sin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sin.Location = new System.Drawing.Point(234, 86);
+            this.sin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.sin.Location = new System.Drawing.Point(244, 121);
             this.sin.Name = "sin";
             this.sin.Size = new System.Drawing.Size(75, 23);
             this.sin.TabIndex = 10;
@@ -177,7 +182,8 @@
             // cos
             // 
             this.cos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cos.Location = new System.Drawing.Point(324, 86);
+            this.cos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cos.Location = new System.Drawing.Point(334, 121);
             this.cos.Name = "cos";
             this.cos.Size = new System.Drawing.Size(75, 23);
             this.cos.TabIndex = 11;
@@ -188,7 +194,8 @@
             // degreeoftwo
             // 
             this.degreeoftwo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.degreeoftwo.Location = new System.Drawing.Point(234, 133);
+            this.degreeoftwo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.degreeoftwo.Location = new System.Drawing.Point(244, 168);
             this.degreeoftwo.Name = "degreeoftwo";
             this.degreeoftwo.Size = new System.Drawing.Size(75, 23);
             this.degreeoftwo.TabIndex = 12;
@@ -199,7 +206,8 @@
             // degreeofx
             // 
             this.degreeofx.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.degreeofx.Location = new System.Drawing.Point(324, 134);
+            this.degreeofx.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.degreeofx.Location = new System.Drawing.Point(334, 169);
             this.degreeofx.Name = "degreeofx";
             this.degreeofx.Size = new System.Drawing.Size(75, 23);
             this.degreeofx.TabIndex = 13;
@@ -210,7 +218,8 @@
             // lognature
             // 
             this.lognature.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lognature.Location = new System.Drawing.Point(234, 221);
+            this.lognature.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lognature.Location = new System.Drawing.Point(244, 256);
             this.lognature.Name = "lognature";
             this.lognature.Size = new System.Drawing.Size(75, 23);
             this.lognature.TabIndex = 14;
@@ -221,7 +230,8 @@
             // module
             // 
             this.module.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.module.Location = new System.Drawing.Point(324, 176);
+            this.module.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.module.Location = new System.Drawing.Point(334, 211);
             this.module.Name = "module";
             this.module.Size = new System.Drawing.Size(75, 23);
             this.module.TabIndex = 15;
@@ -232,7 +242,8 @@
             // degreeoften
             // 
             this.degreeoften.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.degreeoften.Location = new System.Drawing.Point(234, 176);
+            this.degreeoften.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.degreeoften.Location = new System.Drawing.Point(244, 211);
             this.degreeoften.Name = "degreeoften";
             this.degreeoften.Size = new System.Drawing.Size(75, 23);
             this.degreeoften.TabIndex = 16;
@@ -243,7 +254,8 @@
             // tan
             // 
             this.tan.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.tan.Location = new System.Drawing.Point(324, 221);
+            this.tan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tan.Location = new System.Drawing.Point(334, 256);
             this.tan.Name = "tan";
             this.tan.Size = new System.Drawing.Size(75, 23);
             this.tan.TabIndex = 17;
@@ -254,7 +266,8 @@
             // ctan
             // 
             this.ctan.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ctan.Location = new System.Drawing.Point(234, 261);
+            this.ctan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ctan.Location = new System.Drawing.Point(244, 296);
             this.ctan.Name = "ctan";
             this.ctan.Size = new System.Drawing.Size(75, 23);
             this.ctan.TabIndex = 18;
@@ -265,7 +278,8 @@
             // logtwo
             // 
             this.logtwo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.logtwo.Location = new System.Drawing.Point(324, 261);
+            this.logtwo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.logtwo.Location = new System.Drawing.Point(334, 296);
             this.logtwo.Name = "logtwo";
             this.logtwo.Size = new System.Drawing.Size(75, 23);
             this.logtwo.TabIndex = 19;
@@ -276,7 +290,8 @@
             // xdegreey
             // 
             this.xdegreey.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.xdegreey.Location = new System.Drawing.Point(36, 177);
+            this.xdegreey.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.xdegreey.Location = new System.Drawing.Point(38, 212);
             this.xdegreey.Name = "xdegreey";
             this.xdegreey.Size = new System.Drawing.Size(75, 23);
             this.xdegreey.TabIndex = 20;
@@ -287,7 +302,8 @@
             // xTo1dY
             // 
             this.xTo1dY.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.xTo1dY.Location = new System.Drawing.Point(117, 177);
+            this.xTo1dY.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.xTo1dY.Location = new System.Drawing.Point(119, 212);
             this.xTo1dY.Name = "xTo1dY";
             this.xTo1dY.Size = new System.Drawing.Size(75, 23);
             this.xTo1dY.TabIndex = 21;
@@ -298,7 +314,8 @@
             // logxy
             // 
             this.logxy.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.logxy.Location = new System.Drawing.Point(36, 222);
+            this.logxy.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.logxy.Location = new System.Drawing.Point(38, 257);
             this.logxy.Name = "logxy";
             this.logxy.Size = new System.Drawing.Size(75, 23);
             this.logxy.TabIndex = 22;
@@ -309,7 +326,8 @@
             // Ostxy
             // 
             this.Ostxy.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Ostxy.Location = new System.Drawing.Point(116, 221);
+            this.Ostxy.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ostxy.Location = new System.Drawing.Point(118, 256);
             this.Ostxy.Name = "Ostxy";
             this.Ostxy.Size = new System.Drawing.Size(75, 23);
             this.Ostxy.TabIndex = 23;
@@ -320,7 +338,8 @@
             // min
             // 
             this.min.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.min.Location = new System.Drawing.Point(35, 261);
+            this.min.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.min.Location = new System.Drawing.Point(37, 296);
             this.min.Name = "min";
             this.min.Size = new System.Drawing.Size(75, 23);
             this.min.TabIndex = 24;
@@ -331,7 +350,8 @@
             // max
             // 
             this.max.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.max.Location = new System.Drawing.Point(116, 261);
+            this.max.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.max.Location = new System.Drawing.Point(118, 296);
             this.max.Name = "max";
             this.max.Size = new System.Drawing.Size(75, 23);
             this.max.TabIndex = 25;
@@ -342,7 +362,8 @@
             // Average
             // 
             this.Average.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Average.Location = new System.Drawing.Point(35, 300);
+            this.Average.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Average.Location = new System.Drawing.Point(37, 335);
             this.Average.Name = "Average";
             this.Average.Size = new System.Drawing.Size(75, 23);
             this.Average.TabIndex = 26;
@@ -353,7 +374,8 @@
             // Geometric
             // 
             this.Geometric.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Geometric.Location = new System.Drawing.Point(115, 299);
+            this.Geometric.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Geometric.Location = new System.Drawing.Point(117, 334);
             this.Geometric.Name = "Geometric";
             this.Geometric.Size = new System.Drawing.Size(75, 23);
             this.Geometric.TabIndex = 27;
@@ -364,7 +386,8 @@
             // EdegreeX
             // 
             this.EdegreeX.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.EdegreeX.Location = new System.Drawing.Point(234, 299);
+            this.EdegreeX.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.EdegreeX.Location = new System.Drawing.Point(244, 334);
             this.EdegreeX.Name = "EdegreeX";
             this.EdegreeX.Size = new System.Drawing.Size(75, 23);
             this.EdegreeX.TabIndex = 28;
@@ -375,7 +398,8 @@
             // DivisionX
             // 
             this.DivisionX.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DivisionX.Location = new System.Drawing.Point(324, 300);
+            this.DivisionX.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.DivisionX.Location = new System.Drawing.Point(334, 335);
             this.DivisionX.Name = "DivisionX";
             this.DivisionX.Size = new System.Drawing.Size(75, 23);
             this.DivisionX.TabIndex = 29;
@@ -385,8 +409,9 @@
             // 
             // Form1
             // 
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(433, 327);
+            this.BackColor = System.Drawing.SystemColors.WindowText;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(465, 410);
             this.Controls.Add(this.DivisionX);
             this.Controls.Add(this.EdegreeX);
             this.Controls.Add(this.Geometric);
@@ -414,6 +439,7 @@
             this.Controls.Add(this.generation);
             this.Controls.Add(this.minus);
             this.Controls.Add(this.plus);
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Calculator";

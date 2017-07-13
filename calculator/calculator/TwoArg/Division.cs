@@ -8,7 +8,7 @@ namespace calculator.TwoArg
         {
             if (second == 0)
             {
-                throw new Exception("Вводимое значение равно 0");
+                throw new Exception("Делить на 0 незя");
             }
             return first / second;
         }
