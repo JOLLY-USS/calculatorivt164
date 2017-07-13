@@ -53,6 +53,7 @@
     <Compile Include="OneArg\LogtwoTest.cs" />
     <Compile Include="OneArg\ModuleTest.cs" />
     <Compile Include="OneArg\MultiplicationTest.cs" />
+    <Compile Include="OneArg\OneArgumentFactoryTest.cs" />
     <Compile Include="OneArg\SinusTest.cs" />
     <Compile Include="OneArg\TanTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="TwoArg\MultiplicationTest.cs" />
     <Compile Include="TwoArg\OstXYTest.cs" />
     <Compile Include="TwoArg\SubstractionTest.cs" />
+    <Compile Include="TwoArg\TwoArgumentFactoryTest.cs" />
     <Compile Include="TwoArg\XDegreeYTest.cs" />
     <Compile Include="TwoArg\Xto1DyTest.cs" />
   </ItemGroup>

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.ExceptionServices;
 using calculator.TwoArg;
 using NUnit.Framework;
 
