@@ -20,18 +20,35 @@ namespace calculator
 
         private void act_Click(object sender, EventArgs e)
         {
-            double firstArgument = Convert.ToDouble(textBox1.Text);
-            double secondArgument = Convert.ToDouble(textBox2.Text);
-            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(firstArgument, secondArgument);
-            label1.Text = Convert.ToString(result);
+            try
+            {
+                double firstArgument = Convert.ToDouble(textBox1.Text);
+                double secondArgument = Convert.ToDouble(textBox2.Text);
+                ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button) sender).Name);
+                double result = calculator.Calculate(firstArgument, secondArgument);
+                label1.Text = Convert.ToString(result);
+            }
+            catch (Exception exc)
+            {
+                Console.WriteLine(exc);
+                throw;
+            }
         }
         private void OneArgumentOperation_Click(object sender, EventArgs e)
         {
-            double firstArgument = Convert.ToDouble(textBox1.Text);
-            IOneArgumentCalculator calculator = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(firstArgument);
-            label1.Text = Convert.ToString(result);
+            try
+            {
+                double firstArgument = Convert.ToDouble(textBox1.Text);
+                IOneArgumentCalculator calculator = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
+                double result = calculator.Calculate(firstArgument);
+                label1.Text = Convert.ToString(result);
+            }
+            catch (Exception exc)
+            {
+                Console.WriteLine(exc);
+                throw;
+            }
+           
         }
     }
 }
