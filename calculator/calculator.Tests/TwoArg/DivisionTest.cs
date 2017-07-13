@@ -1,4 +1,5 @@
-﻿using calculator.TwoArg;
+﻿using System;
+using calculator.TwoArg;
 using NUnit.Framework;
 
 namespace calculator.Tests.TwoArg
@@ -17,6 +18,11 @@ namespace calculator.Tests.TwoArg
 
             Assert.AreEqual(expected, actualResult);
         }
-
+        [Test]
+        public void ErrorTest()
+        {
+            var calculator = new Division();
+            Assert.Throws<Exception>((() => calculator.Calculate(1,0)));
+        }
     }
 }

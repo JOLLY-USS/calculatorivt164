@@ -30,8 +30,7 @@ namespace calculator
             }
             catch (Exception exc)
             {
-                Console.WriteLine(exc);
-                throw;
+                MessageBox.Show("ошибка: " + exc.Message);
             }
         }
         private void OneArgumentOperation_Click(object sender, EventArgs e)
@@ -45,8 +44,7 @@ namespace calculator
             }
             catch (Exception exc)
             {
-                Console.WriteLine(exc);
-                throw;
+                MessageBox.Show("ошибка: " + exc.Message);
             }
            
         }
